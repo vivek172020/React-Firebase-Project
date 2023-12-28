@@ -204,6 +204,8 @@ function BuyNowPage() {
                     console.log("Error getting documents: ", error);
                 });
 
+        } else {
+            alert('Login Required')
         }
     })
 
